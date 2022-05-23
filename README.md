@@ -27,7 +27,8 @@ Você foi contratado por um banco para analisar os dados e dividir os clientes e
 - Algoritmos usados para fazer o agrupamento, KMeans, usando o Elbow Method para definir o número de clusters.
 - Normalização dos dados usando o StandarScaler do Scikit-Learn.
 - Redução da dimensionalidade usando Principal Component Analisys (PCA) e AutoEncoders.
-- O que é PCA? É um algoritmo de aprendizagem não supervisionada que aplica redução de dimensionalidade, porém, tenta manter as informações originais com as mesmas características. Encontra um novo conjunto de características que são chamados de componentes, os componentes são criados por meio das características **não** correlacionais.
+- O que é PCA? É um algoritmo de aprendizagem não supervisionada que aplica redução de dimensionalidade, porém, tenta manter as informações originais com as mesmas características. Encontra um novo conjunto de características que são chamados de componentes, os componentes são criados por meio das características **não** correlacionais. Você vai encontrar um artigo **muito bom** sobre PCA aqui: https://towardsdatascience.com/principal-component-analysis-pca-with-scikit-learn-1e84a0c731b0
+
 - E Autoencoders, o que são? Autoencoders (AE) são redes neurais que visam copiar suas entradas para suas saídas. Eles trabalham compactando a entrada em uma representação de espaço latente e, em seguida, reconstruindo a saída dessa representação. Esse tipo de rede é composto de duas partes:
 
   - Codificador (Encoder): é a parte da rede que compacta a entrada em uma representação de espaço latente (codificando a entrada). Pode ser representado por uma função de codificação h = f (x).
