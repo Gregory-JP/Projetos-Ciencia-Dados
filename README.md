@@ -43,3 +43,20 @@ Você foi contratado por um banco para analisar os dados e dividir os clientes e
 O Jupyter Notebook correspondente a este projeto é o 'marketing.ipynb', está todo documentado e com maiores detalhes do case.
 
 ---
+
+## Case 3: **Previsão Vendas**
+
+Neste projeto, você foi contratado como um cientista de dados de uma rede de lojas físicas, tendo os dados de 1.115 lojas. Seu objetivo é prever vendas futuras.
+
+- Base de dados: https://www.kaggle.com/c/rossmann-store-sales/data
+
+## Solução
+- Foram usadas as bibliotecas Matplotlib, Seaborn, Pandas, Numpy, Datetime e Prophet
+- O tratamento dos dados foi feito usando as bibliotecas Pandas, Numpy e Datetime. A visualização dos dados foi realizada com o auxílio das bibliotecas Matplotlib e Seaborn.
+- Já as previsões foram feitas com a biblioteca do Facebook, fbprophet (séries temporais). Prophet é um framework criado pelo próprio time de cientistas de dados do Facebook, com o intuito de realizar previsões com séries temporais.
+  - O que são séries temporais?
+      Nada mais que uma coleção de observações feitas sequencialmente ao longo do tempo. No nosso caso, vendas em período de tempo. Detalhe importante sobre time series (do inglês), a ordem dos dados é fundamental.
+ 
+ Mais informações sobre séries temporais: https://www.inf.ufsc.br/~marcelo.menezes.reis/Cap4.pdf
+ 
+ O Jupyter Notebook correspondente a este projeto é o 'previsao_vendas.ipynb', está todo documentado e com maiores detalhes do case.
